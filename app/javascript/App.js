@@ -1,11 +1,13 @@
 import React from 'react'
+import Greeting from './components/Greeting'
+
 
 
 const App = () => {
   return (
     <>
       <div className='App'>
-        <h1>Welcome</h1>
+        <Greeting />
       </div>
     </>
   )
