@@ -1,4 +1,5 @@
 import React from 'react'
+import { Routes, Route } from 'react-router-dom';
 import Greeting from './components/Greeting'
 
 
@@ -7,7 +8,9 @@ const App = () => {
   return (
     <>
       <div className='App'>
-        <Greeting />
+        <Routes>
+          <Route path='/'element={<Greeting />} />
+        </Routes>
       </div>
     </>
   )
